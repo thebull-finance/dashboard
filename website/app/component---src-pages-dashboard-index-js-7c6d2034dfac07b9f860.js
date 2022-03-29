@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkzignaly_webapp=self.webpackChunkzignaly_webapp||[]).push([[4153],{96174:function(a,e,p){p.r(e);var u=p(33117);e.default=u.default}}]);
+//# sourceMappingURL=component---src-pages-dashboard-index-js-7c6d2034dfac07b9f860.js.map

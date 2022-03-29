@@ -1,0 +1,6 @@
+{
+    "componentChunkName": "component---src-pages-recover-index-js",
+    "path": "/recover/",
+    "result": {"pageContext":{}},
+    "staticQueryHashes": [],
+    "matchPath": "/recover/:token"}

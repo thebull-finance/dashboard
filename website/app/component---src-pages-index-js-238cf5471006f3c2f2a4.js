@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkzignaly_webapp=self.webpackChunkzignaly_webapp||[]).push([[9678],{97704:function(e,a,n){n.r(a);var t=n(67294),l=n(65186),c=n(25444),u=n(13439),i=n(7963);a.default=function(){var e=(0,u.Z)();return(0,t.useEffect)((function(){(0,i.t)(e.tradeApi.accessToken,e.sessionData)?(0,c.navigate)("/dashboard",{replace:!0}):(0,c.navigate)("/login",{replace:!0})}),[]),t.createElement(l.q,null,t.createElement("title",null,"TheBull"))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-238cf5471006f3c2f2a4.js.map

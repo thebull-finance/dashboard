@@ -61,7 +61,7 @@ exports.onCreatePage = ({ page, actions }) => {
     return;
   }
 };
-
+// const webpack = require('webpack');
 const CaseSensitivePathsPlugin = require("case-sensitive-paths-webpack-plugin");
 const { styles } = require("@ckeditor/ckeditor5-dev-utils");
 const cssRegex = /\.css$/;
@@ -180,8 +180,12 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions, getConfig }) => {
     crypto: require.resolve("crypto-browserify"),
     stream: false,
     "https": false,
-    "http": require.resolve("stream-http")
+    "http": require.resolve("stream-http"),
+    "os": require.resolve("os-browserify/browser")
   };
+//   config.plugins.push(new webpack.IgnorePlugin({
+//     resourceRegExp: /^electron$/
+// }),);
   // eslint-disable-next-line no-console
   console.log("Webpack build config updated");
   // console.log(JSON.stringify(config.module.rules, null, 2));

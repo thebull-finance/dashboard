@@ -38,6 +38,7 @@ const LoginHeader = ({ children }) => {
         justifyContent="start"
       >
         <img alt="TheBull" className="logo" src={Logo} />
+        telegram
         <span className="tagLine">
           <FormattedMessage id="login.header.tagline" />
         </span>

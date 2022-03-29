@@ -25,12 +25,19 @@ const Login = ({ children }) => {
   return (
     <Box className="loginPage">
       <Box className="headerBox" display="flex" flexDirection="row" justifyContent="space-between">
-        <a href="https://www.zignaly.com">
+        <a href="https://www.thebull.finance">
           <img alt="TheBull" className="logo" src={Logo} />
         </a>
+
+          <div style={{display:"flex", justifyContent:"space-between"}}>
         <Box className="languageBox">
-          <LanguageSwitcherDropdown />
+          <a style={{textDecoration:'none', color:'#FF4242', fontWeight:700, fontSize:"16px"}} href="https://t.me/bull_talk">Telegram</a>
         </Box>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <Box className="languageBox">
+          <a style={{textDecoration:'none', color:'#FF4242', fontWeight:700, fontSize:"16px"}} href="https://thebull.finance/thebull.pdf">Whitepaper</a>
+        </Box>
+        </div>
       </Box>
       <Box className="heroBox" display="flex" flexDirection="row" justifyContent="space-between">
         <Box className="heroSide">

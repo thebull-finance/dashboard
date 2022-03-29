@@ -21,8 +21,8 @@ import Modal from "../../Modal";
 import VerifyEmailForm from "../VerifyEmailForm";
 import { setUserId } from "store/actions/user";
 
-// import { connect } from "../../../store/blockchain/blockchainActions";
-// import { fetchData } from "../../../store/data/dataActions";
+//import { connect } from "../../../store/blockchain/blockchainActions";
+//import { fetchData } from "../../../store/data/dataActions";
 
 const SignupForm = () => {
   const [loading, setLoading] = useState(false);

@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-dashboard-index-js-7c6d2034dfac07b9f860.js","mappings":"6IAEA,UAAeA,EAAf","sources":["webpack://zignaly-webapp/./src/pages/dashboard/index.js"],"sourcesContent":["import positions from \"./positions\";\n\nexport default positions;\n"],"names":["positions"],"sourceRoot":""}
