@@ -39,7 +39,7 @@ const PaymentForm = ({ provider }) => {
       <input name="cmd" type="hidden" value="_pay" />
       <input name="reset" type="hidden" value="1" />
       <input name="merchant" type="hidden" value={provider.internalPaymentInfo.merchantId} />
-      <input name="item_name" type="hidden" value="Zignaly Provider" />
+      <input name="item_name" type="hidden" value="TheBull Provider" />
       <input name="currency" type="hidden" value="USD" />
       <input name="amountf" type="hidden" value={provider.internalPaymentInfo.price} />
       <input name="quantity" type="hidden" value="1" />

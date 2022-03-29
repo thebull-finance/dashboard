@@ -153,7 +153,7 @@ describe("Trading Terminal", () => {
       // Get position
       cy.intercept(
         "GET",
-        `*/user/exchanges/Zignaly*/positions/${position.positionId}`,
+        `*/user/exchanges/TheBull*/positions/${position.positionId}`,
         position,
       ).as("getPosition");
     });
@@ -255,7 +255,7 @@ describe("Trading Terminal", () => {
       // Get position
       cy.intercept(
         "GET",
-        `*/user/exchanges/Zignaly*/positions/${position.positionId}`,
+        `*/user/exchanges/TheBull*/positions/${position.positionId}`,
         position,
       ).as("getPosition");
     });
@@ -267,7 +267,7 @@ describe("Trading Terminal", () => {
         },
       });
 
-      cy.intercept("POST", `*/user/exchanges/Zignaly*/positions/${position.positionId}`, "true").as(
+      cy.intercept("POST", `*/user/exchanges/TheBull*/positions/${position.positionId}`, "true").as(
         "updatePosition",
       );
 

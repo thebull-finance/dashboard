@@ -61,7 +61,7 @@ const ExchangeAccountConnect = () => {
   const internalName = watch("internalName");
 
   if (exchanges) {
-    // Filter disabled exchanges and Zignaly
+    // Filter disabled exchanges and TheBull
     exchanges = exchanges.filter((e) => e.enabled && e.name.toLowerCase() !== "zignaly");
   }
 

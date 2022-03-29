@@ -32,7 +32,7 @@ const Testimonial = (props) => {
 
   return (
     <Box className="testimonial">
-      <img alt="Zignaly" className="avatar" src={data.image} />
+      <img alt="TheBull" className="avatar" src={data.image} />
       <Box
         alignItems="center"
         className="timeBox"
@@ -41,7 +41,7 @@ const Testimonial = (props) => {
         justifyContent="flex-end"
       >
         <span className="time"> {moment(new Date(data.date)).fromNow()} </span>
-        {data.facebook && <img alt="Zignaly" className="icon" src={FacebookIcon} />}
+        {data.facebook && <img alt="TheBull" className="icon" src={FacebookIcon} />}
       </Box>
       <Box
         alignItems="start"

@@ -179,6 +179,8 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions, getConfig }) => {
     // Webpack removed polyfills
     crypto: require.resolve("crypto-browserify"),
     stream: false,
+    "https": false,
+    "http": require.resolve("stream-http")
   };
   // eslint-disable-next-line no-console
   console.log("Webpack build config updated");

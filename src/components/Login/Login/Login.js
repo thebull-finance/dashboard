@@ -1,7 +1,7 @@
 import React from "react";
 import "./Login.scss";
 import { Box, Typography } from "@material-ui/core";
-import Logo from "images/logo/logoNB.svg";
+import Logo from "images/logo/logoNB.png";
 import Trophy from "images/login/trophy.svg";
 import Coins from "images/login/coins.svg";
 import OneDollar from "images/login/$1.svg";
@@ -26,7 +26,7 @@ const Login = ({ children }) => {
     <Box className="loginPage">
       <Box className="headerBox" display="flex" flexDirection="row" justifyContent="space-between">
         <a href="https://www.zignaly.com">
-          <img alt="Zignaly" className="logo" src={Logo} />
+          <img alt="TheBull" className="logo" src={Logo} />
         </a>
         <Box className="languageBox">
           <LanguageSwitcherDropdown />

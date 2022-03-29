@@ -84,7 +84,7 @@ const getFromToName = (
     );
   } else if (type === "internal") {
     // todo: remove?
-    return "Zignaly";
+    return "TheBull";
   }
 
   return side === "to" ? toExchangeInternalName : fromExchangeInternalName;

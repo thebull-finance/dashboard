@@ -25,7 +25,7 @@ const CompositionGraph = ({ list, quotes, vertical }) => {
   const intl = useIntl();
 
   const sectionColors = [
-    "#770fc8",
+    "#FF4242",
     "#e0009d",
     "#ff256e",
     "#ff7d4b",
@@ -36,7 +36,7 @@ const CompositionGraph = ({ list, quotes, vertical }) => {
     "#ff70a0",
     "#ffd485",
     "#fcfcb1",
-    "#770fc8",
+    "#FF4242",
     "#e0009d",
     "#ff256e",
     "#ff7d4b",

@@ -9,7 +9,7 @@ export const makePosition = (override?: Partial<Position>): Position => {
     buyPrice: 27.74,
     buyTTL: 5184000,
     closed: false,
-    exchange: "Zignaly",
+    exchange: "TheBull",
     exchangeType: "spot",
     internalExchangeId: "Zignaly1585127408_5e8754f075020",
     invested: 24.966,

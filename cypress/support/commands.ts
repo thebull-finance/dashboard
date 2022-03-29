@@ -88,7 +88,7 @@ Cypress.Commands.add("mock", (options: MockOptions = {}) => {
 // Cypress.Commands.add("mockConnectedProviders", (providers) => {
 //   const connectedProviders = providers.map((p) => ({
 //     connected: true,
-//     exchangeInternalId: `Zignaly${faker.random.alphaNumeric(10)}_${faker.random.alphaNumeric(13)}`,
+//     exchangeInternalId: `TheBull${faker.random.alphaNumeric(10)}_${faker.random.alphaNumeric(13)}`,
 //     // exchangeInternalIds: [],
 //     id: p.id,
 //     name: p.name,

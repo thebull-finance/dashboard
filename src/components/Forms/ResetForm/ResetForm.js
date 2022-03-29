@@ -24,7 +24,7 @@ const ResetForm = ({ code, form: Form }) => {
     >
       {!expired ? (
         <>
-          <img alt="Zignaly" className="logo" src={Logo} />
+          <img alt="TheBull" className="logo" src={Logo} />
           <Form code={code} setExpired={setExpired} />
         </>
       ) : (

@@ -664,7 +664,7 @@ class TradeApiClient {
   /**
    * Close a position.
    *
-   * This action will detach the position monitoring from Zignaly but will continue open in the exchange.
+   * This action will detach the position monitoring from TheBull but will continue open in the exchange.
    *
    * @param {PositionActionPayload} payload Position action payload.
    * @returns {Promise<Position>} Promise that resolve user affected position entity.
@@ -1195,7 +1195,7 @@ class TradeApiClient {
    *
    * @param {CreatePositionPayload} payload Create manual position payload.
 
-   * @returns {Promise<string>} Promise that resolve Zignaly position ID.
+   * @returns {Promise<string>} Promise that resolve TheBull position ID.
    *
    * @memberof TradeApiClient
    */

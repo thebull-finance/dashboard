@@ -6,9 +6,9 @@ export default {
   createdAt: [],
   exchanges: [
     {
-      name: "Zignaly",
+      name: "TheBull",
       exchangeId: "5e662c1c3e3b24c186ed9ccc",
-      exchangeName: "Zignaly",
+      exchangeName: "TheBull",
       internalId: "Zignaly1602776531_5f886dd39a4cc",
       internalName: "Profit Sharing Account",
       areKeysValid: true,

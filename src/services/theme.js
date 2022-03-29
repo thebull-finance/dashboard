@@ -125,7 +125,7 @@ export const colors = {
   red: "#b52a00",
   yellow: "#f6ad3f",
   offWhite: "#fbfafc",
-  purple: "#770fc8",
+  purple: "#FF4242",
   purpleLight: "#a946f6",
   white: "#ffffff",
   lightWhite: "rgba(255, 255, 255, 0.94)",

@@ -44,7 +44,7 @@ const FAQ = () => {
   //         flexDirection="row"
   //         justifyContent="flex-start"
   //       >
-  //         <img alt="Zignaly-Docs" className="docsIcon" src={DocsIcon} />
+  //         <img alt="TheBull-Docs" className="docsIcon" src={DocsIcon} />
   //         <Typography className="docs" variant="h6">
   //           <FormattedMessage id="faq.documentation" />
   //         </Typography>

@@ -63,7 +63,7 @@ const ConnectTraderForm = ({ provider, onClose, onSuccess }) => {
           return intl.formatMessage(
             { id: "copyt.copy.error1" },
             {
-              required: "Zignaly",
+              required: "TheBull",
             },
           );
         } else if (!correctExchange || (!correctType && !provider.profitSharing)) {

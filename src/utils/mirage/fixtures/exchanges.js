@@ -25,7 +25,7 @@ export default [
   },
   {
     id: "5e662c1c3e3b24c186ed9c24",
-    name: "Zignaly",
+    name: "TheBull",
     enabled: true,
     requiredAuthFields: [],
     type: ["spot", "futures"],

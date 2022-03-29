@@ -37,7 +37,7 @@ const LoginHeader = ({ children }) => {
         flexDirection="column"
         justifyContent="start"
       >
-        <img alt="Zignaly" className="logo" src={Logo} />
+        <img alt="TheBull" className="logo" src={Logo} />
         <span className="tagLine">
           <FormattedMessage id="login.header.tagline" />
         </span>

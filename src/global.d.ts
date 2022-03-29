@@ -295,11 +295,11 @@ interface PositionBase {
    */
   exitPriceStyle: string;
   /**
-   * Exchange connection ID, reference the connection of an exchange to Zignaly account.
+   * Exchange connection ID, reference the connection of an exchange to TheBull account.
    */
   internalExchangeId: string;
   /**
-   * Exchange connection ID, reference the connection of an exchange to Zignaly account.
+   * Exchange connection ID, reference the connection of an exchange to TheBull account.
    */
   exchangeInternalId: string;
   /**
@@ -315,7 +315,7 @@ interface PositionBase {
    */
   openDateReadable: string;
   /**
-   * Zignaly position ID.
+   * TheBull position ID.
    */
   positionId: string;
   /**
@@ -395,7 +395,7 @@ interface PositionBase {
    */
   symbol: string;
   /**
-   * Zignaly user ID.
+   * TheBull user ID.
    */
   userId: string;
   /**
@@ -439,7 +439,7 @@ interface PositionBase {
    */
   unitsAmount: string;
   /**
-   * Short symbol name displayed in Zignaly.
+   * Short symbol name displayed in TheBull.
    */
   short: string;
   /**

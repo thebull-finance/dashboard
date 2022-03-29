@@ -15,8 +15,8 @@ module.exports = {
   // on develop mode, see issue: https://github.com/gatsbyjs/gatsby/issues/3721
   pathPrefix: "/app",
   siteMetadata: {
-    title: "Zignaly Gatsby Starter",
-    description: "Zignaly the copy-trader platform.",
+    title: "TheBull Gatsby Starter",
+    description: "TheBull the copy-trader platform.",
   },
   plugins: [
     {

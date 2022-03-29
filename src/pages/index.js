@@ -19,7 +19,7 @@ const IndexPage = () => {
 
   return (
     <Helmet>
-      <title>Zignaly</title>
+      <title>TheBull</title>
     </Helmet>
   );
 };

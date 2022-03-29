@@ -8,6 +8,7 @@ import autoMergeLevel2 from "redux-persist/lib/stateReconciler/autoMergeLevel2";
 import { composeWithDevTools } from "redux-devtools-extension";
 import initialState from "./initialState";
 
+
 /**
  * @typedef {import("redux").Action} Action
  * @typedef {import("redux-thunk").ThunkAction<void, Function, unknown, Action>} AppThunk

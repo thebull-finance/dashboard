@@ -1,6 +1,6 @@
-# Zignaly Crypto Trading Webapp
+# TheBull Crypto Trading Webapp
 
-This is the official webapp of the crypto copy trading Zignaly platform.
+This is the official webapp of the crypto copy trading TheBull platform.
 
 ## Features
 
@@ -10,8 +10,8 @@ This is the official webapp of the crypto copy trading Zignaly platform.
 - Dashboard to monitor your positions and balance.
 - Profit/Losses analytics to evaluate the performance of your investments.
 - Connect multiples exchanges accounts from Binance and KuCoin.
-- Create Zignaly exchange account to centralize management of all your assets at Zignaly.
-- Become a copy trader or trading signals provider in Zignaly traders community.
+- Create TheBull exchange account to centralize management of all your assets at TheBull.
+- Become a copy trader or trading signals provider in TheBull traders community.
 - Manage your copy trader service followers and evaluate your trading performance.
 - Trade with manually through our powerful trading terminal that support long/short positions, stop loss, trailing stop, take profit targets, rebuy/DCA targets and time expiration / close.
 - Customize notifications, profile and security preferences.
@@ -33,7 +33,7 @@ We crafted this app using Gatsby https://github.com/gatsbyjs/gatsby, a modern we
 - React Intl for UI internationalization https://formatjs.io/docs/react-intl/#the-react-intl-module
 - Material UI icons and React Feather for our icons UI.
 - ChartJS https://github.com/chartjs/Chart.js for our analytics / performance charts.
-- Trade API Client, is a JS implementation of Zignaly Trade API client that allow you to control copy trader / signal provider subscriptions, statistics, positions management, balance, withdraw, settings among other stuff at your Zignaly account. You can find the implementation at `src/services/tradeApiClient.js`
+- Trade API Client, is a JS implementation of TheBull Trade API client that allow you to control copy trader / signal provider subscriptions, statistics, positions management, balance, withdraw, settings among other stuff at your TheBull account. You can find the implementation at `src/services/tradeApiClient.js`
 
 ### Code organization:
 
@@ -46,7 +46,7 @@ We crafted this app using Gatsby https://github.com/gatsbyjs/gatsby, a modern we
   - `pageContext` - React context providers.
   - `pages` - Gatsby pages that are render at build process in server side, few of them contains dynamic routing those ones are render only on client side.
   - `reducers` - Redux reducers, we organize the state in 5 groups: session, settings, UI, user and views.
-  - `services` - Services clients/functions to integrate with other APIs like Zignaly Trade API, Timezone service or custom MUI theme.
+  - `services` - Services clients/functions to integrate with other APIs like TheBull Trade API, Timezone service or custom MUI theme.
   - `store` - Redux store provider, initial state data and schema definition and action creators.
   - `styles` - SASS global styles and mixins.
   - `utils` - All our JS utility functions that are reusable in many components, mostly formatters, validations, data mapping, lookup and calculations.
@@ -66,7 +66,7 @@ Then start gatsby develop server:
 STAGE=test npm run develop
 ```
 
-The webapp is now running at `localhost:3000`. In order to login to the private area pages you will need to create a Zignaly account at https://zignaly.com/app/signup
+The webapp is now running at `localhost:3000`. In order to login to the private area pages you will need to create a TheBull account at https://zignaly.com/app/signup
 
 ## Testing
 

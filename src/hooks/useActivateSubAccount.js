@@ -10,7 +10,7 @@ import tradeApi from "services/tradeApiClient";
 
 /**
  * Hook to activate subaccount if needed
- * @param {ExchangeConnectionEntity} account Zignaly account
+ * @param {ExchangeConnectionEntity} account TheBull account
  * @param {function} [callback] Callback
  * @returns {void}
  */
