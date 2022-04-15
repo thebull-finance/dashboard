@@ -683,6 +683,10 @@ const ProjectDetailsModal = ({ onClose, onPledged, open, projectId }: ProjectDet
                 <DescriptionOutlined />
                 <FormattedMessage id="zigpad.whitepaper" tagName="span" />
               </MiniIconLink>
+              <MiniIconLink href={"https://github.com/thebull-finance/FAQ/issues?q=is%3Aissue+is%3Aclosed"}>
+                <DescriptionOutlined />
+                <FormattedMessage id="zigpad.faq" tagName="span" />
+              </MiniIconLink>
               {projectDetails.socials.map((s, i) => (
                 <MiniIconLink href={s.url} key={i}>
                   <SocialIcon type={s.name} />

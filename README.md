@@ -97,3 +97,6 @@ This command execute the ESLint, StyleLint and Typescript checks and inform you 
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
+
+
+-- Hosted on Netlify

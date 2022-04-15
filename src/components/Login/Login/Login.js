@@ -37,6 +37,10 @@ const Login = ({ children }) => {
         <Box className="languageBox">
           <a style={{textDecoration:'none', color:'#FF4242', fontWeight:700, fontSize:"16px"}} href="https://thebull.finance/thebull.pdf">Whitepaper</a>
         </Box>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <Box className="languageBox">
+          <a style={{textDecoration:'none', color:'#FF4242', fontWeight:700, fontSize:"16px"}} href="https://github.com/thebull-finance/FAQ/issues?q=is%3Aissue+is%3Aclosed">FAQ</a>
+        </Box>
         </div>
       </Box>
       <Box className="heroBox" display="flex" flexDirection="row" justifyContent="space-between">
