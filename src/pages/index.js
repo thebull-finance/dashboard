@@ -11,7 +11,7 @@ const IndexPage = () => {
     if (verifySessionData(storeSession.tradeApi.accessToken, storeSession.sessionData)) {
       navigate("/dashboard", { replace: true });
     } else {
-      navigate("/login", { replace: true });
+      navigate("/signup", { replace: true });
     }
   };
 

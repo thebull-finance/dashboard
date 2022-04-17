@@ -334,12 +334,15 @@ const SignupForm = () => {
               <span className="termsText">Subscribe to notifications</span>
             </Box>
           </Box>
-
+          <a href="https://nft.thebull.finance" style={{textDecoration:"none"}}>
           <Box className="inputBox buttonBox">
-            <CustomButton className={"full submitButton"} loading={loading} type="submit">
+
+            <CustomButton className={"full submitButton"} loading={loading} >
              Connect to Metamask
             </CustomButton>
+
           </Box>
+          </a>
         </Box>
       </form>
       {/* <>
